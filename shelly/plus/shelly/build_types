@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+cat types.input > types.go
+echo >> types.go
+cat ../types/* | grep type | grep struct | awk '{print $2}' | awk '{print "type "$0" = types."$0}' >> types.go

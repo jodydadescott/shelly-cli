@@ -1,0 +1,18 @@
+ap:
+  is_open: true
+  enable: false
+  range_extender:
+    enable: false
+sta:
+  ssid: SR71-D
+  pass: dpJk550834@eRR
+  is_open: false
+  enable: true
+  ipv4mode: dhcp
+sta1:
+  is_open: true
+  enable: false
+  ipv4mode: dhcp
+roam:
+  rssi_thr: -80
+  interval: 60

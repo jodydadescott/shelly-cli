@@ -1,0 +1,69 @@
+package shelly
+
+import (
+	"github.com/jodydadescott/shelly-manager/shelly/plus/types"
+)
+
+type Config = types.ShellyConfig
+type Status = types.ShellyStatus
+type Params = types.ShellyParams
+type Methods = types.ShellyRPCMethods
+
+type ShellyStatus = types.ShellyStatus
+type BluetoothStatus = types.BluetoothStatus
+type CloudStatus = types.CloudStatus
+type InputStatus = types.InputStatus
+type MqttStatus = types.MqttStatus
+type SwitchStatus = types.SwitchStatus
+type LightStatus = types.LightStatus
+type AenergyStatus = types.AenergyStatus
+type SystemStatus = types.SystemStatus
+type AvailableUpdatesStatus = types.AvailableUpdatesStatus
+type FirmwareStatus = types.FirmwareStatus
+type WakeupReasonStatus = types.WakeupReasonStatus
+type WifiStatus = types.WifiStatus
+type WebsocketStatus = types.WebsocketStatus
+type EthernetStatus = types.EthernetStatus
+type TemperatureStatus = types.TemperatureStatus
+type ShellyRPCMethods = types.ShellyRPCMethods
+type ShellyConfig = types.ShellyConfig
+type SystemConfig = types.SystemConfig
+type DeviceConfig = types.DeviceConfig
+type LocationConfig = types.LocationConfig
+type DebugConfig = types.DebugConfig
+type MqttDebug = types.MqttDebug
+type WebsocketDebug = types.WebsocketDebug
+type UDP = types.UDP
+type UIDataConfig = types.UIDataConfig
+type RPCUDPConfig = types.RPCUDPConfig
+type SntpConfig = types.SntpConfig
+type BluetoothConfig = types.BluetoothConfig
+type RPCConfig = types.RPCConfig
+type ObserverConfig = types.ObserverConfig
+type CloudConfig = types.CloudConfig
+type InputConfig = types.InputConfig
+type MqttConfig = types.MqttConfig
+type SwitchConfig = types.SwitchConfig
+type LightConfig = types.LightConfig
+type WifiConfig = types.WifiConfig
+type APConfig = types.APConfig
+type RangeExtenderConfig = types.RangeExtenderConfig
+type StaConfig = types.StaConfig
+type RoamConfig = types.RoamConfig
+type WebsocketConfig = types.WebsocketConfig
+type EthernetConfig = types.EthernetConfig
+type DeviceInfo = types.DeviceInfo
+type ShellyParams = types.ShellyParams
+type LightParams = types.LightParams
+type SwitchParams = types.SwitchParams
+type ShellyReport = types.ShellyReport
+type WifiNet = types.WifiNet
+type APClient = types.APClient
+type SetReport = types.SetReport
+type UpdatesReport = types.UpdatesReport
+type LightReport = types.LightReport
+type SwitchReport = types.SwitchReport
+type Error = types.Error
+type Request = types.Request
+type Response = types.Response
+type MessageHandler = types.MessageHandler

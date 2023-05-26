@@ -1,0 +1,8 @@
+package shelly 
+
+import (
+	"github.com/jodydadescott/shelly-manager/shelly/plus/types"
+)
+
+type MessageHandlerFactory = types.MessageHandlerFactory
+type MessageHandler = types.MessageHandler

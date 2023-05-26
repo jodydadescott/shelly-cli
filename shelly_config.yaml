@@ -1,0 +1,45 @@
+ble:
+  enable: false
+  rpc:
+    enable: false
+  observer:
+    enable: false
+mqtt:
+  enable: true
+  server: 10.0.0.153
+  topic_prefix: shelly
+  rpc_ntf: true
+  status_ntf: true
+  use_client_cert: false
+  enable_rpc: true
+  enable_control: true
+sys:
+  device:
+    name: null
+    eco_mode: false
+    mac: "441793937014"
+    fw_id: 20230308-091612/0.14.1-g22a4cb7
+    profile: ""
+    discoverable: true
+  location:
+    tz: America/Denver
+    lat: 39.63066
+    lon: -104.89736
+  sntp:
+    server: time.google.com
+wifi:
+  ap:
+    is_open: true
+    enable: false
+    range_extender:
+      enable: false
+  sta:
+    ssid: SR71-D
+    pass: dpJk550834@eRR
+    is_open: false
+    enable: true
+    ipv4mode: dhcp
+  sta1:
+    is_open: true
+    enable: false
+    ipv4mode: dhcp
